@@ -25,7 +25,7 @@ const extractFiles = [
  */
 module.exports = function unzipAll(zip) {
   const toBeUnzipped = Object.keys(zip.files)
-    .filter(file => extractFiles.includes(file))
+    .filter(file => extractFiles.indexOf(file)!==-1)
     .map(file => unzipFile(file, zip));
 
   return Promise.all(toBeUnzipped);
