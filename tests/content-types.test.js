@@ -21,7 +21,6 @@ const coreLibrariesToCheck = [
   'H5P.Blanks',
   'H5P.ImageHotspotQuestion',
   'H5P.GuessTheAnswer',
-  'H5P.ImpressPresentation',
   'H5P.InteractiveVideo',
   'H5P.MarkTheWords',
   'H5P.MemoryGame',
