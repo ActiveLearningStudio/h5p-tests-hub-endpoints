@@ -59,7 +59,7 @@ const requiredLibraryProperties = [
 
 test.beforeEach(async t => {
   const body = new FormData();
-  body.append('uuid', 'hello-kitty');
+  body.append('uuid', '0ee34931-d637-46f8-9f7d-f0b80bd1bfd1');
 
   t.context.data = await fetch('https://api.h5p.org/v1/content-types', {
     method: 'POST',
